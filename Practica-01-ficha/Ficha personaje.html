@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaelen Voss</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Kaelen Voss</h1>
+        <p>Guardián errante del Bosque de Cendra</p>
+    </header>
+
+    <main>
+        <h2>Retrato</h2>
+        <p>Kaelen Voss es un guerrero musculoso de armadura dorada y una filosa espada</p>
+        <img src="https://st2.depositphotos.com/1157310/8639/v/450/depositphotos_86390770-stock-illustration-spartan-mascot.jpg" alt="">
+
+        <h2>Estadisticas</h2>
+        <p>Atributos de Kaelen Voss (nivel 12)</p>
+
+        <table>
+            
+         <thead>
+         <tr>
+        <th scope="col">Atributo</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Máximo</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+        <th scope="row">Vida</th>
+        <td>180</td>
+        <td>220</td>
+        </tr>
+                
+        <tr>
+        <th scope="row">Fuerza</th>
+        <td>34</td>
+        <td>50</td>
+        </tr>
+        <tr>
+        <th scope="row">Destreza</th>
+        <td>41</td>
+        <td>50</td>
+        </tr>
+        <tr>
+        <th scope="row">Resistencia</th>
+        <td>28</td>
+        <td>50</td>
+        </tr>
+        
+     </tbody>
+        </table>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Golpe de lanza: ataque cuerpo a cuerpo con daño perforante.</li>
+            <li>Paso del ciervo: esquiva que otorga velocidad temporal.</li>
+            <li>Grito del bosque: aturde a los enemigos cercanos por 3 segundos.</li>
+            <li>Vínculo natural: cura una parte de la vida al estar sobre hierba.</li>
+        </ul>
+
+        <h2>Historia</h2>
+        <h3>Origenes</h3>
+        <p>Kaelen nació en la aldea de Ostrun, al borde del Bosque de Cendra, donde su familia cuidaba los senderos que separaban a los aldeanos de las criaturas del bosque profundo. Desde niño aprendió a leer las huellas y a escuchar los sonidos que anunciaban peligro antes de que fuera visible.</p>
+        <p>A los quince años perdió a su padre en una incursión de bestias nocturnas, y ese hecho definió el resto de su vida: juró que ningún aldeano más volvería a morir por no saber leer el bosque.</p>
+
+        <h3>El entrenamiento</h3>
+        <p>Fue aceptado como aprendiz por Sara Wilches, la última guardiana veterana de la región, quien le enseñó no solo combate, sino a moverse en armonía con el terreno en lugar de contra él.</p>
+        <p>Durante siete años recorrió cada sendero del bosque, cartografiando zonas seguras y refugios, hasta convertirse él mismo en guardián titular tras la retirada de su maestra.</p>
+
+        <h3>El presente</h3>
+        <p>Hoy Kaelen protege la frontera entre Ostrun y el bosque profundo, entrenando a una nueva generación de guardianes mientras investiga el origen de una corrupción que ha comenzado a alterar el comportamiento de las criaturas que antes conocía bien.</p>
+
+        <h4>Cronologia resumida</h4>
+        <ol>
+            <li>Nacimiento en Ostrun.</li>
+            <li>Muerte de su padre y despertar de su vocación.</li>
+            <li>Aprendizaje bajo Sara Wilches.</li>
+            <li>Nombramiento como guardián titular.</li>
+        </ol>
+
+        <h2>Contacto con el guardian</h2>
+        <form action="#" method="post">
+        <fieldset>
+         <legend>Enviar un mensaje a Kaelen Voss</legend>
+
+        <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        </p>
+
+        <p>
+        <b>Tipo de mensaje:</b><br>
+        <input type="radio" id="alianza" name="asunto" value="alianza">
+        <label for="alianza">Propuesta de alianza</label><br>
+        <input type="radio" id="peligro" name="asunto" value="peligro">
+        <label for="peligro">Reporte de peligro</label><br>
+        <input type="radio" id="entrenamiento" name="asunto" value="entrenamiento">
+        <label for="entrenamiento">Solicitud de entrenamiento</label>
+        </p>
+
+        <p>
+        <label for="fecha">Fecha del encuentro propuesto:</label>
+        <input type="date" id="fecha" name="fecha">
+        </p>
+
+        <p>
+        <label for="hora">Hora sugerida:</label>
+        <input type="time" id="hora" name="hora">
+        </p>
+
+        <p>
+        <label for="evidencia">Adjuntar mapa o evidencia:</label>
+        <input type="file" id="evidencia" name="evidencia">
+        </p>
+
+        <p>
+        <input type="checkbox" id="urgente" name="urgente">
+        <label for="urgente">Marcar como mensaje urgente</label>
+        </p>
+
+        <p>
+        <button type="submit">Enviar mensaje</button>
+        </p>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
